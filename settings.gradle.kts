@@ -1,0 +1,1 @@
+rootProject.name = "localhost.ndambuki_consolidate"

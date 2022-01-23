@@ -1,0 +1,33 @@
+#version: '3.6'
+#services:
+#  app:
+#    build: ./
+#    container_name: gradle-app
+#    volumes:
+#      - ./:/Ndambuki_Consolidate
+#    ports:
+#      - 8080:8080
+#    expose:
+#      - 8080
+#
+
+#
+#services:
+#  # SQL database
+#  postgres:
+##    image: "postgres:9.6.0"
+#    image: "postgres:latest"
+#    restart: "always"
+##    volumes:
+##      - "ktor-starter-data:/var/lib/postgresql/data"
+#    ports:
+#      - "54321:5432"
+#    environment:
+#      POSTGRES_USER: "sensei"
+#      POSTGRES_PASSWORD: "password"
+#      POSTGRES_DB: "ncDatabase"
+#    mem_limit: "8g"
+#
+#
+##volumes:
+##  ktor-starter-data:
